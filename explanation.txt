@@ -1,0 +1,5 @@
+This infrastructure has Application Load Balancer with Auto Scaling Group of Elastic Compute Cloud (EC2) Instances and Relational Database Service (RDS) on defined VPC.
+The ELB handle the load between the two EC2
+Auto scalliing add more EC2 instnace if nedded
+RDS in the Databsae on this project
+in the VPC thiere 2 subnets on each AZ the trafic came from internet gateway driected by table rout(on public subnets) and the private subnets does not has IGW 
